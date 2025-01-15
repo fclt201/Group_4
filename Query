@@ -191,10 +191,10 @@ QUERY 13
 SELECT 
     appointments.Appointment_ID, 
     appointments.Doctor_ID, 
-    appointments.Doctor_Name; 
+    appointments.Doctor_Name
 FROM  
     appointments 
-INNER JOIN  
+JOIN  
     doctors ON appointments.Doctor_ID = doctors.Doctor_ID 
 WHERE 
     doctors.Doctor_ID = '2'; 
@@ -210,7 +210,7 @@ SELECT
     patients.Patient_Name, 
     hospitals.Hospital_Name 
 FROM  
-        prescriptions 
+    ((((prescriptions 
 INNER JOIN  
     medications ON prescriptions.Medication_ID = medications.Medication_ID) 
 INNER JOIN  
@@ -234,7 +234,7 @@ SELECT
     hospitals.Hospital_Name, 
     hospitals.Year_of_Accreditation 
 FROM  
-    labresults 
+    ((labresults 
 INNER JOIN  
     patients ON labresults.Patient_ID = patients.Patient_ID) 
 INNER JOIN  
@@ -244,6 +244,8 @@ WHERE
 
 QUERY 16
 • Identify which doctor has made the most prescriptions.
+
+#Ms Access version of Query 16
 
 SELECT TOP 1  
     doctors.Doctor_ID,
@@ -257,7 +259,24 @@ GROUP BY
     doctors.Doctor_ID,  
     doctors.Doctor_Name 
 ORDER BY  
-     COUNT (prescriptions.Prescription_ID) DESC; 
+     COUNT(prescriptions.Prescription_ID) DESC; 
+
+#MySQL version of query 16
+
+SELECT  
+    doctors.Doctor_ID,
+    doctors.Doctor_Name,  
+    COUNT(prescriptions.Prescription_ID) AS Total_Prescriptions 
+FROM  
+    doctors 
+INNER JOIN  
+    prescriptions ON doctors.Doctor_ID = prescriptions.Doctor_ID 
+GROUP BY  
+    doctors.Doctor_ID,  
+    doctors.Doctor_Name 
+ORDER BY  
+     COUNT(prescriptions.Prescription_ID) DESC
+LIMIT 1;
 
 QUERY 17
 • Print a list of all doctors at the hospital with biggest size (number of beds).
@@ -269,7 +288,7 @@ SELECT
     hospitals.Hospital_Name, 
     hospitals.Size 
 FROM  
-   doctors 
+   (doctors 
 INNER JOIN 
     hospitals ON doctors.Hospital_ID = hospitals.Hospital_ID) 
 WHERE  
@@ -298,7 +317,7 @@ SELECT
    hospitals.Hospital_Name, 
    hospitals.Size 
 FROM  
-    patients 
+    ((patients 
 INNER JOIN  
     doctors ON patients.Doctor_ID = doctors.Doctor_ID) 
 INNER JOIN  
