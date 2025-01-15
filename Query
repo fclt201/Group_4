@@ -3,41 +3,201 @@ SQL QUERYS
 QUERY 1
 • Print a list of all doctors based at a particular hospital.
 
+#specifically at the hospital '1'
+
+SELECT 
+    Doctor_ID, 
+    Doctor_Name, 
+    DOB, Address 
+FROM 
+    doctors  
+WHERE 
+    Hospital_ID = '1'; 
+
 QUERY 2
 • Print a list of all prescriptions for a particular patient, ordered by the prescription date.
+
+#Specifically for patient '22'
+
+SELECT 
+    * 
+FROM 
+    prescriptions 
+
+WHERE Patient_ID = '22' 
+
+ORDER BY prescriptions.Prescription_Date; 
 
 QUERY 3
 • Print a list of all prescriptions that a particular doctor has prescribed.
 
+#specifically for doctor '2'
+
+SELECT 
+    Doctor_ID, 
+    Doctor_Name, 
+    Prescription_ID, 
+    Patient_ID, 
+    Patient_Name, 
+    Medication_ID, 
+    Medication_Name, 
+    Prescription_Date 
+FROM 
+    prescriptions 
+WHERE 
+    Doctor_ID = '2'; 
+
 QUERY 4
 • Print a table showing all prescriptions ordered by the patient name alphabetically.
+
+SELECT  
+    Patient_Name,  
+    Prescription_ID,  
+    Medication_ID,  
+    Medication_Name,  
+    Doctor_ID,  
+    Doctor_Name,  
+    Prescription_Date  
+FROM  
+    prescriptions 
+ORDER BY  
+    Patient_Name ASC; 
 
 QUERY 5
 • Add a new customer to the database, including being registered with one of the doctors.
 
+#specifically a patient named 'Sophie Matthews', '1987-03-14', '42 Greenway Rd, Dundee, DD4 8UJ' and registering to 'Dr Joshua Scott'.
+
+INSERT INTO patients 
+    (Patient_Name, DOB, Address, Doctor_ID, Doctors_Name) 
+VALUES 
+    ('Sophie Matthews', '1987-03-14', '42 Greenway Rd, Dundee, DD4 8UJ ', '19', 'Dr. Joshua Scott'); 
+
 QUERY 6
 • Modify address details of an existing customer.
 
+#specifically the patient named 'Marilyn Adams' to the address '67 Riverside Crescent, Nottingham, NG9 7BY' 
+
+UPDATE 
+    patients 
+SET 
+    Address = '67 Riverside Crescent, Nottingham, NG9 7BY' 
+WHERE 
+    Patient_Name = ' Marilyn Adams' AND Patient_ID = '600'; 
+
 QUERY 7
-• Print a list of all patient names and addresses for patients registered to doctors based at one particular hospital - that could be used for posting information mail to all of one hospital’s registered patients.
+• Print a list of all patient names and addresses for patients registered to doctors based at one particular hospital.
+
+#specifically for hospital '3'
+
+SELECT 
+    patients.Patient_ID, 
+    patients.Patient_Name, 
+    patients.Address 
+FROM 
+    patients 
+JOIN 
+    doctors ON patients.Doctor_ID = doctors.Doctor_ID 
+JOIN 
+    hospitals ON doctors.Hospital_ID = hospitals.Hospital_ID 
+WHERE 
+    hospitals.Hospital_ID = '3'; 
 
 QUERY 8
 • Print a list of all doctors based at Teaching hospitals which were accredited between 2015-2024.
 
+SELECT 
+    doctors.Doctor_ID, 
+    doctors.Doctor_Name, 
+    hospitals.Hospital_ID, 
+    hospitals.Hospital_Name, 
+    hospitals.Year_of_Accreditation 
+FROM 
+    doctors 
+JOIN 
+    hospitals ON doctors.Hospital_ID = hospitals.Hospital_ID 
+WHERE 
+    hospitals.Type = 'Teaching' AND hospitals.Year_of_Accreditation BETWEEN 2015 AND 2024; 
+
 QUERY 9
 • List all patients who may have a particular disease based on which medication they have been prescribed.
+
+#specifically for the disease 'Epilepsy'
+
+SELECT DISTINCT 
+    patients.Patient_Name  
+FROM 
+    patients  
+JOIN 
+    prescriptions ON patients.Patient_ID = prescriptions.Patient_ID  
+JOIN 
+    diseases ON prescriptions.Medication_ID = diseases.Medication_ID  
+WHERE 
+    diseases.Disease_Name = 'Epilepsy'; 
 
 QUERY 10
 • List all doctors based at who specialize in a particular disease.
 
+#specifically for the disease 'Hypertension'
+
+SELECT 
+    Doctor_Name 
+FROM 
+    doctors 
+JOIN 
+    diseases ON doctors.Doctor_ID = diseases.Doctor_ID 
+WHERE 
+    diseases.Disease_Name = 'Hypertension'; 
+
 QUERY 11
 • List all lab results for all patients over the age of 60.
+
+SELECT 
+    patients.Patient_Name, 
+    labresults.Test_Type, 
+    labresults.Test_Result, 
+    labresults.Test_Date, 
+    patients.DOB 
+FROM 
+    patients  
+JOIN 
+    labresults ON patients.Patient_ID = labresults.Patient_ID  
+WHERE TIMESTAMPDIFF(YEAR, patients.DOB, CURDATE()) > 60; 
 
 QUERY 12
 • Print a list of all appointments for a given patient.
 
+#specifically for patient '9'
+
+SELECT 
+    appointments.Appointment_ID, 
+    appointments.Doctor_ID, 
+    appointments.Appointment_Date, 
+    doctors.Doctor_Name  
+FROM 
+    appointments  
+JOIN 
+    patients ON appointments.Patient_ID = patients.Patient_ID  
+JOIN 
+    doctors ON appointments.Doctor_ID = doctors.Doctor_ID  
+WHERE 
+    patients.Patient_ID = 9; 
+
 QUERY 13
 • Print a list of all appointments for a given doctor.
+
+#specifically for doctor '2'
+
+SELECT 
+    appointments.Appointment_ID, 
+    appointments.Doctor_ID, 
+    appointments.Doctor_Name; 
+FROM  
+    appointments 
+INNER JOIN  
+    doctors ON appointments.Doctor_ID = doctors.Doctor_ID 
+WHERE 
+    doctors.Doctor_ID = '2'; 
 
 QUERY 14
 • Print all prescriptions made from a particular hospital ordered alphabetically by the name of the medication being prescribed - The output of this SQL query should include only these 4 columns: the medication name, the name of doctor who prescribed it, the name of the patient, and the name of hospital.
