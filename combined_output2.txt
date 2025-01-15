@@ -1,0 +1,507 @@
+Doctor_ID	Doctor_Name	Prescription_ID	Patient_ID	Patient_Name	Medication_ID	Medication_Name	Prescription_Date
+2	Dr. James Bennett	107	402	Dorothy Robinson	65	Gabapentin	2024-03-16
+2	Dr. James Bennett	143	202	Julie Andrews	64	Fluoxetine	2024-09-05
+2	Dr. James Bennett	231	102	Frederick Baker-Wilkinson	30	Clopidogrel	2023-12-08
+2	Dr. James Bennett	362	402	Dorothy Robinson	57	Chemotherapy	2023-11-09
+2	Dr. James Bennett	415	202	Julie Andrews	51	Cryotherapy	2024-04-24
+Patient_Name	Prescription_ID	Medication_ID	Medication_Name	Doctor_ID	Doctor_Name	Prescription_Date
+Aaron Thomas	135	22	Citalopram	21	Dr. Alice Bell	2024-11-09
+Aaron Thomas	379	33	Lamotrigine	21	Dr. Alice Bell	2024-07-08
+Abbie Wood	397	60	Compression Stockings	53	Dr. Abigail James	2023-08-19
+Abbie Wood	211	62	Dornase alfa	53	Dr. Abigail James	2024-08-10
+Abdul Taylor	357	12	Alprazolam	94	Dr. Hannah King	2024-02-09
+Abdul Taylor	183	89	Amoxicillin	94	Dr. Hannah King	2024-10-09
+Adam Baldwin	242	56	Liver Transplant	85	Dr. Emma Young	2024-02-04
+Adam Bradley	119	35	Tiotropium	49	Dr. Leah Robinson	2023-12-02
+Aimee Humphreys	178	5	Metformin	16	Dr. Hannah Parker	2023-02-28
+Aimee Rogers	349	85	Sumatriptan	60	Dr. Richard Cooper	2024-09-06
+Alan Robinson	237	68	Clotrimazole	61	Dr. Matthew Bell	2024-05-02
+Albert Walker	290	58	Azithromycin	56	Dr. William Adams	2023-01-26
+Alex Kay	42	4	Amoxicillin	72	Dr. Isabelle Moore	2024-07-10
+Alexandra Hughes	80	88	Alendronate	37	Dr. Daniel Harris	2024-11-27
+Alice Hunt	184	56	Liver Transplant	89	Dr. Joshua Mitchell	2023-01-26
+Alice Hunt	165	70	Colchicine	89	Dr. Joshua Mitchell	2024-04-05
+Alice Hunt	496	27	Bupropion	89	Dr. Joshua Mitchell	2024-01-03
+Alison Coates	482	57	Chemotherapy	47	Dr. Olivia Evans	2023-11-04
+Alison Dunn-Rogers	316	78	Oseltamivir	36	Dr. Patrick Smith	2023-06-18
+Alison Parkes	411	75	Ibuprofen	90	Dr. Abigail Bell	2023-08-22
+Alison Parkes	62	44	Iron Supplements	90	Dr. Abigail Bell	2024-03-25
+Amanda Dennis	326	13	Simvastatin	100	Dr. Olivia Roberts	2023-06-03
+Amanda Sharp-Gardner	258	2	Ibuprofen	18	Dr. Charlotte King	2024-10-11
+Amber Begum	65	47	Iron Supplements	97	Dr. Laura Clark	2023-08-17
+Amber Griffiths	437	76	Lisinopril	95	Dr. William Allen	2024-07-14
+Amber Kirby-Barnes	490	81	Chemotherapy	11	Dr. Lucas Green	2024-02-12
+Amber Kirby-Barnes	166	5	Metformin	11	Dr. Lucas Green	2024-07-30
+Amelia Rees	395	63	Paracetamol	13	Dr. Michael Adams	2023-11-17
+Amy Robinson	423	10	Omeprazole	66	Dr. James Hughes	2024-03-02
+Amy Robinson	10	86	Interferon	66	Dr. James Hughes	2023-12-05
+Amy Robinson	387	100	Trimethoprim	66	Dr. James Hughes	2023-04-23
+Andrew Knight	288	70	Colchicine	14	Dr. Lily Roberts	2024-04-07
+Andrew Phillips	146	81	Chemotherapy	50	Dr. Samuel Williams	2023-11-25
+Andrew Phillips	136	67	Valproate	50	Dr. Samuel Williams	2023-05-22
+Andrew Phillips	244	22	Citalopram	50	Dr. Samuel Williams	2023-06-13
+Angela Robinson	299	70	Colchicine	64	Dr. Daniel Lee	2024-09-19
+Anne Goddard-Matthews	494	99	Amoxicillin	77	Dr. Lily Harris	2024-05-03
+Anthony Bell	351	48	Appendectomy	57	Dr. Lucy Wright	2023-03-01
+Anthony Bell	199	35	Tiotropium	57	Dr. Lucy Wright	2024-07-24
+Anthony Turner	369	25	Hydrocodone	100	Dr. Olivia Roberts	2023-06-23
+Anthony Turner	454	5	Metformin	100	Dr. Olivia Roberts	2024-04-14
+Anthony Warren	422	88	Alendronate	63	Dr. Joshua White	2024-05-01
+Anthony Warren	5	66	Hydrocortisone	63	Dr. Joshua White	2024-08-13
+Ashleigh Lambert	408	42	Rifampicin	24	Dr. Amelia Martinez	2024-04-22
+Ashleigh Lambert	426	26	Clonazepam	24	Dr. Amelia Martinez	2024-01-31
+Ashleigh Lambert	471	6	Lisinopril	24	Dr. Amelia Martinez	2023-08-24
+Barbara Lawrence	67	30	Clopidogrel	71	Dr. Thomas Harris	2024-08-27
+Barbara Pickering-Barrett	123	32	Rosuvastatin	62	Dr. Sophie Turner	2023-09-03
+Barry Roberts	229	3	Paracetamol	28	Dr. Mia Robinson	2024-09-23
+Barry Webb-Ashton	392	85	Sumatriptan	28	Dr. Mia Robinson	2023-05-11
+Benjamin Evans	161	98	Rifampin	64	Dr. Daniel Lee	2023-12-30
+Bradley Fox-Rose	196	91	Methotrexate	12	Dr. Isla Carter	2023-03-09
+Bradley Fox-Rose	292	16	Furosemide	12	Dr. Isla Carter	2023-12-02
+Brenda Singh	198	9	Sertraline	85	Dr. Emma Young	2023-10-11
+Brenda Singh	118	12	Alprazolam	85	Dr. Emma Young	2024-01-28
+Brenda Singh	126	15	Losartan	85	Dr. Emma Young	2023-12-15
+Brian Newton	293	36	Alendronate	35	Dr. Victoria Gray	2023-09-30
+Bryan Weston-Gordon	48	21	Fentanyl	15	Dr. Matthew Young	2023-02-17
+Callum Bibi	274	100	Trimethoprim	35	Dr. Victoria Gray	2023-10-15
+Callum Harrison	252	70	Colchicine	20	Dr. Sarah Morgan	2024-11-29
+Callum Matthews	144	45	Hydoxyurea	61	Dr. Matthew Bell	2023-08-26
+Carol Howell-Allen	398	25	Hydrocodone	60	Dr. Richard Cooper	2024-10-02
+Carol Howell-Allen	43	39	Allopurinol	60	Dr. Richard Cooper	2024-02-21
+Carolyn Wilson-Wilson	59	5	Metformin	63	Dr. Joshua White	2023-09-07
+Carolyn Wilson-Wilson	156	14	Ciprofloxacin	63	Dr. Joshua White	2024-04-06
+Catherine Anderson	447	32	Rosuvastatin	41	Dr. Oliver Walker	2024-03-29
+Charlene Campbell	157	64	Fluoxetine	89	Dr. Joshua Mitchell	2024-01-22
+Charles Evans	175	35	Tiotropium	22	Dr. Samuel White	2023-12-31
+Charles Evans	77	99	Amoxicillin	22	Dr. Samuel White	2024-06-23
+Chelsea Hammond	463	5	Metformin	33	Dr. Henry King	2023-06-07
+Chelsea Jones	428	90	Calcipotriene	8	Dr. William Scott	2023-07-13
+Cheryl Lewis	416	38	Levodopa	56	Dr. William Adams	2023-06-15
+Cheryl Lewis	286	24	Carbamazepine	56	Dr. William Adams	2024-09-14
+Christopher Goodwin	233	5	Metformin	87	Dr. Benjamin Scott	2024-06-11
+Christopher Goodwin	247	19	Hydrochlorothiazide	87	Dr. Benjamin Scott	2023-08-12
+Christopher Goodwin	353	97	Tissue Plasminogen Activator	87	Dr. Benjamin Scott	2024-09-27
+Claire Clarke	272	81	Chemotherapy	45	Dr. George Green	2023-07-17
+Claire Clarke	4	26	Clonazepam	45	Dr. George Green	2023-07-09
+Claire Miller	279	70	Colchicine	64	Dr. Daniel Lee	2023-02-05
+Claire Miller	461	29	Zolpidem	64	Dr. Daniel Lee	2023-08-17
+Claire Miller	138	30	Clopidogrel	64	Dr. Daniel Lee	2024-06-14
+Claire Walker	322	65	Gabapentin	46	Dr. Jack Turner	2023-05-19
+Clifford Allen	177	97	Tissue Plasminogen Activator	53	Dr. Abigail James	2024-12-25
+Colin Edwards	127	16	Furosemide	52	Dr. Nathaniel Davis	2023-10-03
+Conor Bailey	45	92	Permethrin	75	Dr. Sophia Grant	2023-08-23
+Conor Bailey	245	76	Lisinopril	75	Dr. Sophia Grant	2024-02-22
+Craig Clayton-Wade	384	11	Amlodipine	94	Dr. Hannah King	2024-04-26
+Craig Clayton-Wade	40	93	Olanzapine	94	Dr. Hannah King	2024-06-26
+Craig Cooke	164	47	Iron Supplements	10	Dr. Emma Thompson	2024-01-30
+Damien Gardner	204	58	Azithromycin	81	Dr. Daniel Cooper	2024-12-24
+Darren Faulkner	345	10	Omeprazole	37	Dr. Daniel Harris	2023-10-04
+Darren Faulkner	228	80	Fluconazole	37	Dr. Daniel Harris	2024-10-30
+Dawn Cook	285	27	Bupropion	31	Dr. Noah Carter	2024-04-05
+Dawn Cook	191	48	Appendectomy	31	Dr. Noah Carter	2024-08-11
+Dawn Pollard	192	91	Methotrexate	54	Dr. Hugo White	2023-05-26
+Dawn Pollard	310	11	Amlodipine	54	Dr. Hugo White	2024-06-28
+Denis White	236	93	Olanzapine	81	Dr. Daniel Cooper	2024-11-24
+Denise Armstrong	241	83	Chloroquine	26	Dr. Natalie Mitchell	2025-01-04
+Denise Armstrong	364	95	CPAP Therapy	26	Dr. Natalie Mitchell	2023-07-08
+Denise Sharp	238	35	Tiotropium	84	Dr. George Carter	2023-03-25
+Derek Campbell	354	29	Zolpidem	29	Dr. Lucas Moore	2024-12-29
+Diana May	205	50	Metronidazole	73	Dr. Max Wilson	2023-05-02
+Diana Ward	325	55	Lisinopril	6	Dr. Ava Clarke	2024-10-14
+Dominic Cook	158	7	Atorvastatin	35	Dr. Victoria Gray	2024-06-08
+Dominic Cook	109	28	Doxycycline	35	Dr. Victoria Gray	2023-10-24
+Dominic Nolan	180	91	Methotrexate	41	Dr. Oliver Walker	2024-11-02
+Donald Allen	214	41	Gluten Free Diet	20	Dr. Sarah Morgan	2024-10-10
+Donald Hicks	210	38	Levodopa	18	Dr. Charlotte King	2024-02-02
+Donna Jennings	73	31	Loratadine	80	Dr. Emma White	2024-08-05
+Donna Jennings	334	94	Acyclovir	80	Dr. Emma White	2023-06-08
+Dorothy Robinson	107	65	Gabapentin	2	Dr. James Bennett	2024-03-16
+Dorothy Robinson	362	57	Chemotherapy	2	Dr. James Bennett	2023-11-09
+Dr Aaron Woods	344	71	Cetirizine	62	Dr. Sophie Turner	2024-07-03
+Dr Alice Roberts	71	93	Olanzapine	39	Dr. Benjamin Lewis	2024-06-22
+Dr Alice Roberts	149	18	Lorazepam	39	Dr. Benjamin Lewis	2023-07-03
+Dr Carl Robinson	339	90	Calcipotriene	27	Dr. Oliver Clark	2024-12-07
+Dr Charlotte Marshall	458	80	Fluconazole	54	Dr. Hugo White	2023-02-21
+Dr Charlotte Marshall	14	81	Chemotherapy	54	Dr. Hugo White	2024-10-21
+Dr Darren Pearce	6	31	Loratadine	71	Dr. Thomas Harris	2024-03-16
+Dr Darren Pearce	500	37	Diazepam	71	Dr. Thomas Harris	2024-02-22
+Dr Darren Summers	153	30	Clopidogrel	32	Dr. Ava Morgan	2024-05-26
+Dr Darren Summers	66	16	Furosemide	32	Dr. Ava Morgan	2024-01-25
+Dr Frank Jordan	393	51	Cryotherapy	33	Dr. Henry King	2023-05-16
+Dr Frank Jordan	418	32	Rosuvastatin	33	Dr. Henry King	2023-05-16
+Dr Gemma Peters	121	70	Colchicine	30	Dr. Sophia Allen	2024-08-31
+Dr Gemma Peters	75	17	Gabapentin	30	Dr. Sophia Allen	2024-08-30
+Dr Gordon Rowe	337	62	Dornase alfa	52	Dr. Nathaniel Davis	2024-10-03
+Dr Gordon Rowe	312	97	Tissue Plasminogen Activator	52	Dr. Nathaniel Davis	2024-04-27
+Dr Gordon Rowe	171	40	Methotrexate	52	Dr. Nathaniel Davis	2024-07-26
+Dr Gordon Rowe	20	46	Tretinoin	52	Dr. Nathaniel Davis	2024-03-09
+Dr Jade Davidson	368	71	Cetirizine	52	Dr. Nathaniel Davis	2024-01-24
+Dr Jake Richardson	425	11	Amlodipine	29	Dr. Lucas Moore	2023-05-25
+Dr Jeremy Mason	435	63	Paracetamol	42	Dr. Lily Collins	2024-07-15
+Dr Jeremy Mason	234	86	Interferon	42	Dr. Lily Collins	2024-11-11
+Dr Jill Young	396	81	Chemotherapy	46	Dr. Jack Turner	2023-07-23
+Dr Jodie Owens	487	7	Atorvastatin	98	Dr. Victoria Adams	2023-05-09
+Dr Jodie Owens	9	35	Tiotropium	98	Dr. Victoria Adams	2023-05-18
+Dr Joe Green	297	41	Gluten Free Diet	71	Dr. Thomas Harris	2025-01-01
+Dr Joe Green	363	7	Atorvastatin	71	Dr. Thomas Harris	2023-04-23
+Dr Lawrence Kaur	54	51	Cryotherapy	77	Dr. Lily Harris	2024-11-01
+Dr Lisa Gibson	83	46	Tretinoin	14	Dr. Lily Roberts	2024-08-05
+Dr Lisa Gibson	97	49	Albuterol	14	Dr. Lily Roberts	2023-06-05
+Dr Lisa Gibson	332	100	Trimethoprim	14	Dr. Lily Roberts	2023-12-02
+Dr Malcolm Baker	105	59	Chloramphenicol	44	Dr. Sophie Bell	2023-03-29
+Dr Malcolm Thompson	359	28	Doxycycline	19	Dr. Joshua Scott	2023-04-08
+Dr Malcolm Thompson	256	87	Acetaminophen	19	Dr. Joshua Scott	2023-06-17
+Dr Mary Fraser	60	2	Ibuprofen	20	Dr. Sarah Morgan	2023-10-29
+Dr Natasha Smith	202	7	Atorvastatin	13	Dr. Michael Adams	2024-06-27
+Dr Patrick Ellis	32	49	Albuterol	15	Dr. Matthew Young	2023-02-05
+Dr Patrick Ellis	399	9	Sertraline	15	Dr. Matthew Young	2023-04-09
+Dr Paul Taylor	19	97	Tissue Plasminogen Activator	4	Dr. Daniel Lewis	2024-03-28
+Dr Rhys Johnson	227	16	Furosemide	36	Dr. Patrick Smith	2024-04-26
+Dr Rhys Johnson	390	61	Remdesivir	36	Dr. Patrick Smith	2024-02-14
+Dr Rhys Johnson	265	8	Prednisone	36	Dr. Patrick Smith	2023-04-10
+Dr Roger Kelly	21	71	Cetirizine	84	Dr. George Carter	2024-06-09
+Dr Roger Kelly	311	54	Antidepressants	84	Dr. George Carter	2023-02-05
+Dr Rosie Reed	7	36	Alendronate	47	Dr. Olivia Evans	2023-03-26
+Dr Sara Sharp	212	83	Chloroquine	98	Dr. Victoria Adams	2023-11-16
+Dr Scott Williamson	446	22	Citalopram	14	Dr. Lily Roberts	2024-08-08
+Dr Scott Williamson	273	83	Chloroquine	14	Dr. Lily Roberts	2023-11-22
+Dr Scott Williamson	472	68	Clotrimazole	14	Dr. Lily Roberts	2023-12-05
+Dr Sharon Webb	304	51	Cryotherapy	92	Dr. Natalie Evans	2023-03-27
+Dr Stuart Kelly	197	73	Tenofovir	19	Dr. Joshua Scott	2023-02-26
+Dr Suzanne Jones	300	53	Albuterol	53	Dr. Abigail James	2023-05-17
+Dr Suzanne Jones	168	26	Clonazepam	53	Dr. Abigail James	2023-12-30
+Dr Terence Hancock	81	54	Antidepressants	97	Dr. Laura Clark	2024-02-21
+Dr Toby Brown	222	31	Loratadine	77	Dr. Lily Harris	2023-12-23
+Edward Hopkins	430	2	Ibuprofen	3	Dr. Sophia Walker	2024-08-16
+Eileen Graham	30	8	Prednisone	79	Dr. Zoe Adams	2024-12-31
+Eileen Graham	382	57	Chemotherapy	79	Dr. Zoe Adams	2023-06-30
+Eileen Wilson	394	82	Hydroxychloroquine	52	Dr. Nathaniel Davis	2023-01-24
+Elaine Howard	17	16	Furosemide	46	Dr. Jack Turner	2023-08-18
+Elaine Quinn-Cook	367	93	Olanzapine	58	Dr. Marcus Clark	2023-12-16
+Elliott Wyatt	70	7	Atorvastatin	34	Dr. Clara Mitchell	2024-08-13
+Elliott Wyatt	333	31	Loratadine	34	Dr. Clara Mitchell	2024-11-10
+Elliott Wyatt	489	46	Tretinoin	34	Dr. Clara Mitchell	2024-05-15
+Emma Newman	142	63	Paracetamol	89	Dr. Joshua Mitchell	2024-06-27
+Emma Thomas-Jones	499	49	Albuterol	41	Dr. Oliver Walker	2024-11-23
+Fiona Dunn-Naylor	243	96	Omeprazole	98	Dr. Victoria Adams	2023-08-05
+Fiona Simmons	484	57	Chemotherapy	64	Dr. Daniel Lee	2024-09-26
+Frances Tomlinson	281	43	Antiretroviral Therapy	50	Dr. Samuel Williams	2023-06-16
+Francesca Howells-Newman	137	16	Furosemide	83	Dr. Isabelle Clark	2023-11-24
+Francesca Ward	389	30	Clopidogrel	57	Dr. Lucy Wright	2023-07-30
+Francis Owen	82	2	Ibuprofen	70	Dr. Max Evans	2024-01-12
+Francis Owen	114	98	Rifampin	70	Dr. Max Evans	2024-03-02
+Frank Gill	264	57	Chemotherapy	29	Dr. Lucas Moore	2024-03-01
+Frederick Baker-Wilkinson	231	30	Clopidogrel	2	Dr. James Bennett	2023-12-08
+Frederick Curtis	352	82	Hydroxychloroquine	14	Dr. Lily Roberts	2025-01-01
+Frederick Smith	182	48	Appendectomy	35	Dr. Victoria Gray	2024-11-29
+Gareth Carter	206	79	Loperamide	56	Dr. William Adams	2023-12-10
+Gareth Parker-Clarke	41	16	Furosemide	21	Dr. Alice Bell	2023-01-17
+Gary Townsend	155	96	Omeprazole	80	Dr. Emma White	2023-11-09
+Gemma Hargreaves	115	34	Sumatriptan	34	Dr. Clara Mitchell	2024-07-04
+Gemma Harris	172	7	Atorvastatin	98	Dr. Victoria Adams	2024-09-27
+Gemma Morgan	431	85	Sumatriptan	96	Dr. Samuel Walker	2024-01-11
+Gerald Brennan	441	79	Loperamide	90	Dr. Abigail Bell	2023-11-09
+Gerald Morgan	113	56	Liver Transplant	59	Dr. Amelia Grant	2024-06-26
+Gerald Morgan	336	35	Tiotropium	59	Dr. Amelia Grant	2023-09-05
+Glenn Briggs	291	84	Estrogen	34	Dr. Clara Mitchell	2024-04-14
+Gordon Ahmed	218	65	Gabapentin	68	Dr. Sophia Parker	2024-01-21
+Graham Fisher	39	4	Amoxicillin	54	Dr. Hugo White	2023-10-03
+Graham Fisher	69	11	Amlodipine	54	Dr. Hugo White	2023-09-25
+Guy Evans-Connor	308	13	Simvastatin	85	Dr. Emma Young	2024-07-28
+Guy Evans-Shaw	88	9	Sertraline	22	Dr. Samuel White	2023-08-13
+Guy Robinson	230	83	Chloroquine	88	Dr. Charlotte Green	2023-11-21
+Harriet Powell-Perkins	320	6	Lisinopril	29	Dr. Lucas Moore	2024-07-04
+Harriet Taylor	261	43	Antiretroviral Therapy	49	Dr. Leah Robinson	2023-12-24
+Harriet Taylor	174	20	Trazodone	49	Dr. Leah Robinson	2024-09-09
+Harry Dixon	371	9	Sertraline	7	Dr. Emily Turner	2024-06-05
+Harry Thomas	11	99	Amoxicillin	8	Dr. William Scott	2024-01-24
+Harry Thomas	154	98	Rifampin	8	Dr. William Scott	2024-02-15
+Hazel Davies	361	47	Iron Supplements	9	Dr. Jacob Moore	2023-03-24
+Henry Johnson	295	10	Omeprazole	51	Dr. Isla Phillips	2023-03-31
+Hollie Smith	249	79	Loperamide	62	Dr. Sophie Turner	2023-08-18
+Holly Austin	128	86	Interferon	4	Dr. Daniel Lewis	2024-09-23
+Howard Sims	424	17	Gabapentin	1	Dr. Olivia Harris	2023-09-20
+Iain Martin-Houghton	301	5	Metformin	12	Dr. Isla Carter	2024-06-26
+Jack Hughes	92	46	Tretinoin	46	Dr. Jack Turner	2024-12-13
+Jack Hughes	91	32	Rosuvastatin	46	Dr. Jack Turner	2023-02-23
+Jacqueline Patel	421	13	Simvastatin	37	Dr. Daniel Harris	2024-12-09
+Jade Mason	195	35	Tiotropium	1	Dr. Olivia Harris	2024-12-21
+Jake Warren	108	50	Metronidazole	22	Dr. Samuel White	2024-05-20
+Jake Warren	462	10	Omeprazole	22	Dr. Samuel White	2023-05-12
+James Rogers	28	77	Methimazole	77	Dr. Lily Harris	2023-02-08
+James Rogers	481	99	Amoxicillin	77	Dr. Lily Harris	2023-07-09
+James Rogers	313	85	Sumatriptan	77	Dr. Lily Harris	2023-01-19
+Jane Goddard	51	90	Calcipotriene	60	Dr. Richard Cooper	2024-11-27
+Jane Goddard	50	18	Lorazepam	60	Dr. Richard Cooper	2023-11-28
+Jane Goddard	268	75	Ibuprofen	60	Dr. Richard Cooper	2024-12-13
+Jason Jones	350	57	Chemotherapy	30	Dr. Sophia Allen	2024-09-13
+Jason Jones	34	27	Bupropion	30	Dr. Sophia Allen	2023-07-07
+Jay Sutton	413	79	Loperamide	53	Dr. Abigail James	2024-05-14
+Jay Taylor	318	13	Simvastatin	49	Dr. Leah Robinson	2025-01-04
+Jayne Clark-Banks	15	87	Acetaminophen	5	Dr. Jack Wilson	2023-05-02
+Jayne Clark-Banks	410	83	Chloroquine	5	Dr. Jack Wilson	2024-08-17
+Jayne Lane	302	74	Sofosbuvir	28	Dr. Mia Robinson	2024-06-04
+Jean Wilkinson-Perkins	176	45	Hydoxyurea	20	Dr. Sarah Morgan	2024-09-11
+Jemma Powell	282	40	Methotrexate	15	Dr. Matthew Young	2023-03-12
+Jemma Powell	405	89	Amoxicillin	15	Dr. Matthew Young	2024-07-03
+Jennifer Lambert-Taylor	246	100	Trimethoprim	74	Dr. Rachel Lee	2024-08-03
+Jeremy Robinson	432	62	Dornase alfa	51	Dr. Isla Phillips	2024-03-11
+Jill Jones	365	72	Aspirin	79	Dr. Zoe Adams	2024-08-13
+Jill Jones	216	37	Diazepam	79	Dr. Zoe Adams	2025-01-11
+Jill Patel	255	24	Carbamazepine	66	Dr. James Hughes	2023-01-24
+Joan Lloyd	434	5	Metformin	46	Dr. Jack Turner	2023-08-20
+Joan Tomlinson	49	73	Tenofovir	13	Dr. Michael Adams	2023-02-07
+Joanne Phillips	315	97	Tissue Plasminogen Activator	5	Dr. Jack Wilson	2024-01-06
+Joe Hopkins-Cook	347	9	Sertraline	12	Dr. Isla Carter	2024-01-23
+John Butler	29	6	Lisinopril	78	Dr. Samuel Carter	2024-02-01
+John Stephens	132	79	Loperamide	98	Dr. Victoria Adams	2024-01-01
+John Stephens	94	83	Chloroquine	98	Dr. Victoria Adams	2023-01-01
+Jordan Johnston	266	13	Simvastatin	55	Dr. Olivia Phillips	2025-01-11
+Josephine Adams	377	49	Albuterol	79	Dr. Zoe Adams	2024-04-25
+Josephine Adams	110	65	Gabapentin	79	Dr. Zoe Adams	2024-04-30
+Josephine Riley	483	69	Omeprazole	54	Dr. Hugo White	2024-11-06
+Josephine Riley	402	63	Paracetamol	54	Dr. Hugo White	2024-08-24
+Josephine Riley	129	12	Alprazolam	54	Dr. Hugo White	2023-05-20
+Josephine Riley	189	13	Simvastatin	54	Dr. Hugo White	2024-06-25
+Julie Andrews	143	64	Fluoxetine	2	Dr. James Bennett	2024-09-05
+Julie Andrews	415	51	Cryotherapy	2	Dr. James Bennett	2024-04-24
+June Allen	491	61	Remdesivir	3	Dr. Sophia Walker	2023-02-02
+June Foster	35	65	Gabapentin	25	Dr. Ethan Cooper	2024-11-27
+June Foster	329	46	Tretinoin	25	Dr. Ethan Cooper	2024-10-13
+June Pollard	269	89	Amoxicillin	38	Dr. Ella Roberts	2024-09-15
+Justin Bailey	89	5	Metformin	22	Dr. Samuel White	2024-06-03
+Karl Wright	464	36	Alendronate	92	Dr. Natalie Evans	2024-04-06
+Karl Wright	283	74	Sofosbuvir	92	Dr. Natalie Evans	2023-06-22
+Kate Hooper-Middleton	341	10	Omeprazole	21	Dr. Alice Bell	2024-12-30
+Katherine Shaw	57	76	Lisinopril	3	Dr. Sophia Walker	2024-02-18
+Katherine Shaw	167	83	Chloroquine	3	Dr. Sophia Walker	2023-10-08
+Kathryn Greenwood	253	35	Tiotropium	30	Dr. Sophia Allen	2024-10-23
+Kathryn Greenwood	340	6	Lisinopril	30	Dr. Sophia Allen	2023-03-10
+Katy Bruce	208	17	Gabapentin	86	Dr. Lucas Bell	2024-07-07
+Katy Crawford	53	84	Estrogen	92	Dr. Natalie Evans	2024-05-24
+Kayleigh Bates	103	66	Hydrocortisone	30	Dr. Sophia Allen	2023-04-27
+Keith Stewart-Dyer	104	16	Furosemide	79	Dr. Zoe Adams	2023-12-07
+Kelly Gibbons	190	95	CPAP Therapy	55	Dr. Olivia Phillips	2024-01-29
+Kenneth Duncan	380	53	Albuterol	32	Dr. Ava Morgan	2023-08-29
+Kerry Taylor	466	94	Acyclovir	39	Dr. Benjamin Lewis	2023-08-24
+Kevin Doherty	235	98	Rifampin	69	Dr. Nathan Roberts	2023-06-28
+Kim Moss-Arnold	444	60	Compression Stockings	43	Dr. Ethan Mitchell	2023-11-09
+Kim Singh-Wilson	414	18	Lorazepam	81	Dr. Daniel Cooper	2024-09-13
+Kimberley Wright	403	98	Rifampin	38	Dr. Ella Roberts	2023-05-03
+Kimberley Wright	305	99	Amoxicillin	38	Dr. Ella Roberts	2024-01-09
+Kirsty Farrell-Freeman	456	45	Hydoxyurea	65	Dr. Grace Morris	2024-06-16
+Kirsty Farrell-Freeman	289	87	Acetaminophen	65	Dr. Grace Morris	2023-03-20
+Kyle Moss	486	78	Oseltamivir	76	Dr. John Murphy	2024-07-12
+Lawrence Green-Davies	453	64	Fluoxetine	8	Dr. William Scott	2024-03-04
+Leanne Webb	26	19	Hydrochlorothiazide	60	Dr. Richard Cooper	2024-03-09
+Leanne Young	260	74	Sofosbuvir	58	Dr. Marcus Clark	2024-05-15
+Leon Parkes	485	9	Sertraline	81	Dr. Daniel Cooper	2024-08-12
+Leonard Buckley-Lyons	314	26	Clonazepam	45	Dr. George Green	2024-03-04
+Lewis Thornton	147	81	Chemotherapy	72	Dr. Isabelle Moore	2024-05-09
+Lewis Thornton	63	32	Rosuvastatin	72	Dr. Isabelle Moore	2024-09-28
+Lindsey Chambers	134	61	Remdesivir	27	Dr. Oliver Clark	2024-09-16
+Lindsey Chambers	358	94	Acyclovir	27	Dr. Oliver Clark	2024-05-26
+Lindsey Chambers	376	15	Losartan	27	Dr. Oliver Clark	2024-06-14
+Lorraine Thorpe	38	33	Lamotrigine	41	Dr. Oliver Walker	2024-07-05
+Louise Anderson-Hill	321	69	Omeprazole	34	Dr. Clara Mitchell	2023-09-27
+Louise Clark	61	58	Azithromycin	86	Dr. Lucas Bell	2024-03-17
+Lydia Woods	470	19	Hydrochlorothiazide	95	Dr. William Allen	2023-06-26
+Lynn Stevens	16	56	Liver Transplant	81	Dr. Daniel Cooper	2024-12-16
+Lynne Young	436	65	Gabapentin	47	Dr. Olivia Evans	2024-11-24
+Marc Parker	194	96	Omeprazole	22	Dr. Samuel White	2024-09-18
+Maria Bolton	280	98	Rifampin	6	Dr. Ava Clarke	2023-05-15
+Maria Jones	467	100	Trimethoprim	83	Dr. Isabelle Clark	2023-06-06
+Maria Walker	375	29	Zolpidem	61	Dr. Matthew Bell	2023-09-03
+Marian Warner	294	71	Cetirizine	6	Dr. Ava Clarke	2023-03-01
+Marian Warner	338	44	Iron Supplements	6	Dr. Ava Clarke	2023-01-30
+Mark Shaw	102	73	Tenofovir	31	Dr. Noah Carter	2024-11-22
+Martyn Martin	84	33	Lamotrigine	87	Dr. Benjamin Scott	2024-06-12
+Martyn Martin	124	46	Tretinoin	87	Dr. Benjamin Scott	2023-01-06
+Matthew Davies-Fuller	267	54	Antidepressants	57	Dr. Lucy Wright	2024-07-11
+Matthew Davies-Fuller	160	60	Compression Stockings	57	Dr. Lucy Wright	2024-10-24
+Megan Barton	319	25	Hydrocodone	71	Dr. Thomas Harris	2024-03-07
+Megan Dunn	409	80	Fluconazole	87	Dr. Benjamin Scott	2023-10-09
+Megan Dunn	401	34	Sumatriptan	87	Dr. Benjamin Scott	2024-04-08
+Michael Watkins	400	23	Fluoxetine	97	Dr. Laura Clark	2023-09-22
+Michelle Coleman	130	79	Loperamide	21	Dr. Alice Bell	2023-05-25
+Michelle Webster	303	67	Valproate	52	Dr. Nathaniel Davis	2023-11-22
+Miss Ann Jackson	372	30	Clopidogrel	12	Dr. Isla Carter	2024-11-21
+Miss Ann Jackson	215	68	Clotrimazole	12	Dr. Isla Carter	2023-02-11
+Miss Ann Jackson	459	99	Amoxicillin	12	Dr. Isla Carter	2023-07-24
+Miss Beth Gough	170	84	Estrogen	93	Dr. George Robinson	2023-07-30
+Miss Carly May	335	18	Lorazepam	89	Dr. Joshua Mitchell	2025-01-10
+Miss Georgia Wilson	221	56	Liver Transplant	24	Dr. Amelia Martinez	2023-01-06
+Miss Georgia Wilson	209	46	Tretinoin	24	Dr. Amelia Martinez	2023-02-05
+Miss Helen Shepherd	427	73	Tenofovir	16	Dr. Hannah Parker	2023-07-28
+Miss Jayne Conway	22	88	Alendronate	92	Dr. Natalie Evans	2024-04-15
+Miss Jayne Conway	207	72	Aspirin	92	Dr. Natalie Evans	2024-05-31
+Miss Jayne Conway	480	70	Colchicine	92	Dr. Natalie Evans	2025-01-02
+Miss Jennifer Woods	188	35	Tiotropium	70	Dr. Max Evans	2023-06-07
+Miss Jennifer Woods	55	6	Lisinopril	70	Dr. Max Evans	2024-02-01
+Miss Joanne Pearce	141	95	CPAP Therapy	3	Dr. Sophia Walker	2023-07-14
+Miss Lynda King	287	17	Gabapentin	36	Dr. Patrick Smith	2024-04-06
+Miss Maureen Turner	331	52	Nitrofurantoin	79	Dr. Zoe Adams	2023-04-30
+Miss Teresa Chan	58	6	Lisinopril	76	Dr. John Murphy	2023-05-05
+Mohammed Hart-Gray	1	22	Citalopram	66	Dr. James Hughes	2023-12-12
+Mohammed Skinner	224	16	Furosemide	15	Dr. Matthew Young	2023-08-18
+Mr Adrian Jones	374	90	Calcipotriene	83	Dr. Isabelle Clark	2024-08-02
+Mr Adrian Jones	330	81	Chemotherapy	83	Dr. Isabelle Clark	2023-07-18
+Mr Arthur Brown	419	26	Clonazepam	26	Dr. Natalie Mitchell	2023-11-24
+Mr Barry Green	220	97	Tissue Plasminogen Activator	59	Dr. Amelia Grant	2023-05-22
+Mr Benjamin Reynolds	187	88	Alendronate	61	Dr. Matthew Bell	2023-04-29
+Mr Benjamin Smith	391	57	Chemotherapy	63	Dr. Joshua White	2023-10-04
+Mr Benjamin Smith	79	86	Interferon	63	Dr. Joshua White	2024-03-08
+Mr Benjamin Smith	429	47	Iron Supplements	63	Dr. Joshua White	2023-02-24
+Mr Brandon Harvey	8	58	Azithromycin	6	Dr. Ava Clarke	2023-01-12
+Mr Bryan Jones	46	96	Omeprazole	97	Dr. Laura Clark	2023-09-23
+Mr Christopher Arnold	25	8	Prednisone	96	Dr. Samuel Walker	2023-03-10
+Mr Christopher Arnold	162	10	Omeprazole	96	Dr. Samuel Walker	2023-12-30
+Mr Christopher Booth	239	5	Metformin	91	Dr. Harry Wilson	2024-01-23
+Mr Christopher Williamson	101	96	Omeprazole	53	Dr. Abigail James	2024-08-28
+Mr Christopher Williamson	52	27	Bupropion	53	Dr. Abigail James	2023-06-26
+Mr Craig Johnson	477	44	Iron Supplements	45	Dr. George Green	2023-06-10
+Mr Damian Thomas	259	99	Amoxicillin	24	Dr. Amelia Martinez	2023-03-09
+Mr Duncan Walsh	223	15	Losartan	50	Dr. Samuel Williams	2023-01-16
+Mr Gareth Byrne	13	14	Ciprofloxacin	99	Dr. Ethan Clark	2023-10-01
+Mr Gavin Reed	87	98	Rifampin	91	Dr. Harry Wilson	2024-07-04
+Mr Glenn Carey	346	45	Hydoxyurea	72	Dr. Isabelle Moore	2023-01-21
+Mr Glenn Thomas	225	21	Fentanyl	93	Dr. George Robinson	2023-10-19
+Mr Graeme Davies	343	24	Carbamazepine	34	Dr. Clara Mitchell	2023-10-01
+Mr Jacob Stevens	131	89	Amoxicillin	67	Dr. Emily Collins	2024-05-05
+Mr Kenneth Gould	64	6	Lisinopril	84	Dr. George Carter	2023-11-29
+Mr Leigh Burns	381	78	Oseltamivir	38	Dr. Ella Roberts	2024-11-15
+Mr Marcus Thomas	95	93	Olanzapine	23	Dr. Benjamin Harris	2023-09-14
+Mr Maurice Kelly	201	35	Tiotropium	72	Dr. Isabelle Moore	2023-04-18
+Mr Maurice Kelly	117	51	Cryotherapy	72	Dr. Isabelle Moore	2024-01-05
+Mr Maurice Kelly	448	88	Alendronate	72	Dr. Isabelle Moore	2024-09-27
+Mr Maurice Saunders	439	100	Trimethoprim	100	Dr. Olivia Roberts	2023-03-03
+Mr Mitchell Nash	27	23	Fluoxetine	16	Dr. Hannah Parker	2024-01-23
+Mr Neil Wood	23	14	Ciprofloxacin	85	Dr. Emma Young	2023-08-04
+Mr Neil Wood	248	88	Alendronate	85	Dr. Emma Young	2023-11-19
+Mr Robert Potts	383	6	Lisinopril	3	Dr. Sophia Walker	2024-08-06
+Mr Roger Begum	152	55	Lisinopril	86	Dr. Lucas Bell	2024-07-02
+Mr Roger Begum	388	66	Hydrocortisone	86	Dr. Lucas Bell	2023-06-27
+Mr Roger Begum	366	74	Sofosbuvir	86	Dr. Lucas Bell	2023-03-23
+Mr Roy Cross	200	19	Hydrochlorothiazide	32	Dr. Ava Morgan	2023-06-19
+Mr Samuel Carter	306	31	Loratadine	81	Dr. Daniel Cooper	2024-04-18
+Mr Sean Bell	488	27	Bupropion	82	Dr. Jack Thompson	2023-02-10
+Mr Stephen Begum	412	37	Diazepam	7	Dr. Emily Turner	2024-02-23
+Mr Stephen Begum	317	61	Remdesivir	7	Dr. Emily Turner	2023-07-10
+Mr Thomas Parker	475	18	Lorazepam	65	Dr. Grace Morris	2024-03-03
+Mr Thomas Parker	44	39	Allopurinol	65	Dr. Grace Morris	2024-05-28
+Mr Thomas Parker	455	58	Azithromycin	65	Dr. Grace Morris	2024-09-25
+Mr Timothy Anderson	226	56	Liver Transplant	77	Dr. Lily Harris	2023-05-16
+Mrs Abbie Walsh	120	60	Compression Stockings	23	Dr. Benjamin Harris	2023-06-15
+Mrs Abbie Walsh	169	48	Appendectomy	23	Dr. Benjamin Harris	2023-02-10
+Mrs Abbie Walsh	278	30	Clopidogrel	23	Dr. Benjamin Harris	2023-09-19
+Mrs Abbie Walsh	342	83	Chloroquine	23	Dr. Benjamin Harris	2023-02-13
+Mrs Diana Johnson	284	37	Diazepam	44	Dr. Sophie Bell	2023-09-26
+Mrs Harriet Slater	406	39	Allopurinol	6	Dr. Ava Clarke	2023-04-06
+Mrs Jennifer Fraser	473	19	Hydrochlorothiazide	25	Dr. Ethan Cooper	2023-09-02
+Mrs Jennifer Fraser	276	28	Doxycycline	25	Dr. Ethan Cooper	2024-04-28
+Mrs Joan Duffy	498	56	Liver Transplant	75	Dr. Sophia Grant	2023-11-29
+Mrs Joan Duffy	68	39	Allopurinol	75	Dr. Sophia Grant	2023-07-12
+Mrs Jodie Edwards	179	4	Amoxicillin	39	Dr. Benjamin Lewis	2023-11-25
+Mrs Jodie Edwards	240	81	Chemotherapy	39	Dr. Benjamin Lewis	2023-05-08
+Mrs Jodie Edwards	100	61	Remdesivir	39	Dr. Benjamin Lewis	2023-05-30
+Mrs Kelly Pugh	465	6	Lisinopril	90	Dr. Abigail Bell	2023-02-07
+Ms Amelia Rose	457	15	Losartan	8	Dr. William Scott	2024-07-08
+Ms Amy Greenwood	85	86	Interferon	95	Dr. William Allen	2023-06-24
+Ms Amy Greenwood	36	17	Gabapentin	95	Dr. William Allen	2024-06-05
+Ms Amy Norman	254	99	Amoxicillin	99	Dr. Ethan Clark	2023-03-01
+Ms Angela Owen	445	74	Sofosbuvir	55	Dr. Olivia Phillips	2025-01-08
+Ms Angela Owen	373	13	Simvastatin	55	Dr. Olivia Phillips	2023-12-22
+Ms Bethany O'Neill	443	5	Metformin	40	Dr. Elizabeth Scott	2024-12-21
+Ms Charlotte Hill	12	48	Appendectomy	64	Dr. Daniel Lee	2024-09-07
+Ms Charlotte Hill	250	13	Simvastatin	64	Dr. Daniel Lee	2024-01-14
+Ms Christine Cooper	72	40	Methotrexate	96	Dr. Samuel Walker	2023-11-05
+Ms Christine Cooper	479	21	Fentanyl	96	Dr. Samuel Walker	2024-10-29
+Ms Christine Cooper	193	82	Hydroxychloroquine	96	Dr. Samuel Walker	2023-12-23
+Ms Ellie Hall	370	7	Atorvastatin	5	Dr. Jack Wilson	2024-08-28
+Ms Jill Hargreaves	468	57	Chemotherapy	5	Dr. Jack Wilson	2024-07-27
+Ms Jill Hargreaves	355	69	Omeprazole	5	Dr. Jack Wilson	2024-09-06
+Ms Kimberley Smith	449	34	Sumatriptan	4	Dr. Daniel Lewis	2024-03-21
+Ms Marian Bennett	96	22	Citalopram	99	Dr. Ethan Clark	2023-07-23
+Ms Megan Rowley	139	95	CPAP Therapy	11	Dr. Lucas Green	2024-08-25
+Ms Melanie Jones	24	11	Amlodipine	50	Dr. Samuel Williams	2024-09-07
+Ms Melanie Jones	275	48	Appendectomy	50	Dr. Samuel Williams	2024-03-25
+Ms Pauline Fletcher	112	19	Hydrochlorothiazide	6	Dr. Ava Clarke	2024-03-13
+Ms Sarah Harrison	328	86	Interferon	44	Dr. Sophie Bell	2023-10-17
+Ms Shirley Dawson	474	16	Furosemide	73	Dr. Max Wilson	2023-03-16
+Ms Shirley Dawson	173	85	Sumatriptan	73	Dr. Max Wilson	2023-11-29
+Naomi French-Joyce	122	30	Clopidogrel	27	Dr. Oliver Clark	2023-03-22
+Naomi French-Joyce	106	96	Omeprazole	27	Dr. Oliver Clark	2023-02-21
+Naomi French-Joyce	93	44	Iron Supplements	27	Dr. Oliver Clark	2024-08-27
+Naomi Jones	2	61	Remdesivir	11	Dr. Lucas Green	2023-05-02
+Natalie Reed	3	15	Losartan	50	Dr. Samuel Williams	2023-06-04
+Natalie Smith	323	65	Gabapentin	100	Dr. Olivia Roberts	2023-02-08
+Natalie Waters	407	89	Amoxicillin	89	Dr. Joshua Mitchell	2024-07-13
+Nicholas Walsh	440	12	Alprazolam	73	Dr. Max Wilson	2024-12-06
+Nigel Lees	417	42	Rifampicin	75	Dr. Sophia Grant	2024-09-23
+Nigel Lees	476	9	Sertraline	75	Dr. Sophia Grant	2024-07-28
+Nigel Lees	360	21	Fentanyl	75	Dr. Sophia Grant	2024-02-20
+Oliver Parry-Owen	450	50	Metronidazole	25	Dr. Ethan Cooper	2024-06-10
+Oliver Parry-Owen	163	63	Paracetamol	25	Dr. Ethan Cooper	2023-01-30
+Olivia Campbell	497	84	Estrogen	44	Dr. Sophie Bell	2024-01-03
+Patrick Davies	219	55	Lisinopril	53	Dr. Abigail James	2024-01-02
+Patrick Davies	203	11	Amlodipine	53	Dr. Abigail James	2023-10-27
+Patrick Davies	148	14	Ciprofloxacin	53	Dr. Abigail James	2023-09-02
+Patrick Davies	327	18	Lorazepam	53	Dr. Abigail James	2024-07-31
+Patrick Davies	324	57	Chemotherapy	53	Dr. Abigail James	2024-12-11
+Paul Brown-Hunter	56	2	Ibuprofen	7	Dr. Emily Turner	2024-09-07
+Paula Gray-Taylor	159	77	Methimazole	5	Dr. Jack Wilson	2024-02-17
+Pauline Lyons	478	45	Hydoxyurea	10	Dr. Emma Thompson	2023-03-09
+Rachael Atkinson-Clark	125	59	Chloramphenicol	20	Dr. Sarah Morgan	2024-10-19
+Rachael Atkinson-Clark	151	90	Calcipotriene	20	Dr. Sarah Morgan	2024-05-30
+Rachael Barry	99	40	Methotrexate	62	Dr. Sophie Turner	2023-08-23
+Rachael Barry	186	23	Fluoxetine	62	Dr. Sophie Turner	2024-12-28
+Rachel Shaw	277	9	Sertraline	54	Dr. Hugo White	2024-01-03
+Rachel Smith	140	24	Carbamazepine	5	Dr. Jack Wilson	2023-05-29
+Reece Armstrong	270	26	Clonazepam	71	Dr. Thomas Harris	2023-08-27
+Rhys Kaur	296	96	Omeprazole	69	Dr. Nathan Roberts	2024-04-05
+Rhys Kaur	309	96	Omeprazole	69	Dr. Nathan Roberts	2023-07-22
+Rosie James	76	68	Clotrimazole	80	Dr. Emma White	2023-07-22
+Rosie James	257	52	Nitrofurantoin	80	Dr. Emma White	2024-11-27
+Rosie James	385	2	Ibuprofen	80	Dr. Emma White	2023-11-12
+Rosie Jones	460	22	Citalopram	58	Dr. Marcus Clark	2024-03-03
+Sam Clarke-Wilson	378	57	Chemotherapy	7	Dr. Emily Turner	2023-06-25
+Sara Davies-Ryan	420	69	Omeprazole	63	Dr. Joshua White	2024-04-19
+Sara Kennedy-Lambert	133	92	Permethrin	68	Dr. Sophia Parker	2024-10-15
+Sara Parsons	47	51	Cryotherapy	37	Dr. Daniel Harris	2023-02-03
+Sara Parsons	495	17	Gabapentin	37	Dr. Daniel Harris	2023-05-05
+Sarah Harvey	74	82	Hydroxychloroquine	17	Dr. Jack Evans	2024-08-26
+Sean Green	181	47	Iron Supplements	26	Dr. Natalie Mitchell	2023-09-24
+Shane Barker-Graham	232	85	Sumatriptan	59	Dr. Amelia Grant	2024-04-22
+Shane Cross	307	82	Hydroxychloroquine	25	Dr. Ethan Cooper	2023-10-02
+Sheila Marshall	150	33	Lamotrigine	72	Dr. Isabelle Moore	2024-07-30
+Shirley Murphy	86	39	Allopurinol	41	Dr. Oliver Walker	2024-04-08
+Stephen Hill	78	63	Paracetamol	68	Dr. Sophia Parker	2023-01-11
+Steven Glover-Read	116	14	Ciprofloxacin	58	Dr. Marcus Clark	2024-02-10
+Steven Howell	356	17	Gabapentin	74	Dr. Rachel Lee	2024-06-07
+Suzanne Pollard	493	52	Nitrofurantoin	34	Dr. Clara Mitchell	2023-09-07
+Suzanne Pollard	442	51	Cryotherapy	34	Dr. Clara Mitchell	2023-04-22
+Teresa Jones	18	26	Clonazepam	31	Dr. Noah Carter	2024-12-05
+Teresa Jones	145	1	Aspirin	31	Dr. Noah Carter	2023-04-13
+Thomas Clark-Smith	452	2	Ibuprofen	23	Dr. Benjamin Harris	2023-01-31
+Thomas Dale	262	73	Tenofovir	42	Dr. Lily Collins	2023-01-17
+Thomas Williams	438	29	Zolpidem	69	Dr. Nathan Roberts	2023-01-09
+Timothy Pearson	298	76	Lisinopril	9	Dr. Jacob Moore	2024-07-29
+Timothy Pratt	271	100	Trimethoprim	28	Dr. Mia Robinson	2024-08-16
+Tony Nicholson	98	46	Tretinoin	30	Dr. Sophia Allen	2024-08-02
+Tony Nicholson	451	56	Liver Transplant	30	Dr. Sophia Allen	2024-01-21
+Tracy Adams	263	72	Aspirin	59	Dr. Amelia Grant	2023-10-20
+Valerie Young-Middleton	90	3	Paracetamol	90	Dr. Abigail Bell	2023-01-24
+Vanessa Webb	404	64	Fluoxetine	22	Dr. Samuel White	2024-02-22
+Victoria Hope	217	7	Atorvastatin	60	Dr. Richard Cooper	2024-06-24
+Victoria Hope	111	65	Gabapentin	60	Dr. Richard Cooper	2024-12-06
+Vincent Savage	251	60	Compression Stockings	68	Dr. Sophia Parker	2024-06-28
+Vincent Savage	433	14	Ciprofloxacin	68	Dr. Sophia Parker	2024-06-08
+Wayne Harrison	185	36	Alendronate	14	Dr. Lily Roberts	2023-08-05
+Wayne OBrien	33	66	Hydrocortisone	28	Dr. Mia Robinson	2023-01-15
+Wendy Riley-Brown	213	64	Fluoxetine	39	Dr. Benjamin Lewis	2024-03-08
+William Ford	37	79	Loperamide	49	Dr. Leah Robinson	2023-08-05
+William Tucker	386	62	Dornase alfa	10	Dr. Emma Thompson	2024-06-26
+William Tucker	492	4	Amoxicillin	10	Dr. Emma Thompson	2023-12-23
+Yvonne Patel	348	29	Zolpidem	69	Dr. Nathan Roberts	2024-04-20
+Yvonne Patel	469	11	Amlodipine	69	Dr. Nathan Roberts	2024-08-03
+Zoe Leach	31	86	Interferon	91	Dr. Harry Wilson	2024-09-15
