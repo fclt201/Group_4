@@ -23,10 +23,10 @@ SELECT
     * 
 FROM 
     prescriptions 
-
-WHERE Patient_ID = '22' 
-
-ORDER BY prescriptions.Prescription_Date; 
+WHERE 
+    Patient_ID = '22' 
+ORDER BY 
+    prescriptions.Prescription_Date; 
 
 QUERY 3
 • Print a list of all prescriptions that a particular doctor has prescribed.
