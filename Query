@@ -200,19 +200,108 @@ WHERE
     doctors.Doctor_ID = '2'; 
 
 QUERY 14
-• Print all prescriptions made from a particular hospital ordered alphabetically by the name of the medication being prescribed - The output of this SQL query should include only these 4 columns: the medication name, the name of doctor who prescribed it, the name of the patient, and the name of hospital.
+• Print all prescriptions made from a particular hospital ordered alphabetically by the name of the medication being prescribed.
+
+#specifically for hospital '5'
+
+SELECT 
+    medications.Medication_Name, 
+    doctors.Doctor_Name, 
+    patients.Patient_Name, 
+    hospitals.Hospital_Name 
+FROM  
+        prescriptions 
+INNER JOIN  
+    medications ON prescriptions.Medication_ID = medications.Medication_ID) 
+INNER JOIN  
+    doctors ON prescriptions.Doctor_ID = doctors.Doctor_ID) 
+INNER JOIN 
+    patients ON prescriptions.Patient_ID = patients.Patient_ID) 
+INNER JOIN  
+    hospitals ON doctors.Hospital_ID = hospitals.Hospital_ID) 
+WHERE 
+   hospitals.Hospital_ID = '5' 
+ORDER BY 
+    medications.Medication_Name ASC; 
 
 QUERY 15
 • Print a list of all lab results from all hospitals that were accredited between 2013- 2020.
 
+SELECT  
+    labresults.Lab_Result_ID, 
+    labresults.Test_Type, 
+    labresults.Test_Result, 
+    hospitals.Hospital_Name, 
+    hospitals.Year_of_Accreditation 
+FROM  
+    labresults 
+INNER JOIN  
+    patients ON labresults.Patient_ID = patients.Patient_ID) 
+INNER JOIN  
+    hospitals ON labresults.Hospital_ID = hospitals.Hospital_ID) 
+WHERE 
+    hospitals.Year_of_Accreditation BETWEEN 2013 AND 2020; 
+
 QUERY 16
 • Identify which doctor has made the most prescriptions.
+
+SELECT TOP 1  
+    doctors.Doctor_ID,
+    doctors.Doctor_Name,  
+    COUNT(prescriptions.Prescription_ID) AS Total_Prescriptions 
+FROM  
+    doctors 
+INNER JOIN  
+    prescriptions ON doctors.Doctor_ID = prescriptions.Doctor_ID 
+GROUP BY  
+    doctors.Doctor_ID,  
+    doctors.Doctor_Name 
+ORDER BY  
+     COUNT (prescriptions.Prescription_ID) DESC; 
 
 QUERY 17
 • Print a list of all doctors at the hospital with biggest size (number of beds).
 
+SELECT 
+    doctors.Doctor_ID, 
+    doctors.Doctor_Name, 
+    hospitals.Hospital_ID, 
+    hospitals.Hospital_Name, 
+    hospitals.Size 
+FROM  
+   doctors 
+INNER JOIN 
+    hospitals ON doctors.Hospital_ID = hospitals.Hospital_ID) 
+WHERE  
+    hospitals.size = ( 
+        SELECT MAX(Size) 
+        FROM hospitals 
+    ); 
+
 QUERY 18
 • A list of all hospital names which were accredited prior to 2015 and do have Emergency Service facilities.
 
+SELECT 
+    hospitals.Hospital_Name 
+FROM  
+    hospitals 
+WHERE  
+    Year_of_Accreditation < 2015 AND Emergency_Services = 'Yes'; 
+
 QUERY 19
 • QUERY 16 - A list of patients registered with doctors who are based at hospital with <400 beds.
+
+SELECT 
+   patients.Patient_ID, 
+   patients.Patient_Name, 
+   doctors.Doctor_Name, 
+   hospitals.Hospital_Name, 
+   hospitals.Size 
+FROM  
+    patients 
+INNER JOIN  
+    doctors ON patients.Doctor_ID = doctors.Doctor_ID) 
+INNER JOIN  
+    hospitals ON doctors.Hospital_ID = hospitals.Hospital_ID) 
+WHERE 
+    hospitals.Size < 400; 
