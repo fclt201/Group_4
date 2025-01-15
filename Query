@@ -1,1 +1,58 @@
 SQL QUERYS 
+
+QUERY 1
+• Print a list of all doctors based at a particular hospital.
+
+QUERY 2
+• Print a list of all prescriptions for a particular patient, ordered by the prescription date.
+
+QUERY 3
+• Print a list of all prescriptions that a particular doctor has prescribed.
+
+QUERY 4
+• Print a table showing all prescriptions ordered by the patient name alphabetically.
+
+QUERY 5
+• Add a new customer to the database, including being registered with one of the doctors.
+
+QUERY 6
+• Modify address details of an existing customer.
+
+QUERY 7
+• Print a list of all patient names and addresses for patients registered to doctors based at one particular hospital - that could be used for posting information mail to all of one hospital’s registered patients.
+
+QUERY 8
+• Print a list of all doctors based at Teaching hospitals which were accredited between 2015-2024.
+
+QUERY 9
+• List all patients who may have a particular disease based on which medication they have been prescribed.
+
+QUERY 10
+• List all doctors based at who specialize in a particular disease.
+
+QUERY 11
+• List all lab results for all patients over the age of 60.
+
+QUERY 12
+• Print a list of all appointments for a given patient.
+
+QUERY 13
+• Print a list of all appointments for a given doctor.
+
+QUERY 14
+• Print all prescriptions made from a particular hospital ordered alphabetically by the name of the medication being prescribed - The output of this SQL query should include only these 4 columns: the medication name, the name of doctor who prescribed it, the name of the patient, and the name of hospital.
+
+QUERY 15
+• Print a list of all lab results from all hospitals that were accredited between 2013- 2020.
+
+QUERY 16
+• Identify which doctor has made the most prescriptions.
+
+QUERY 17
+• Print a list of all doctors at the hospital with biggest size (number of beds).
+
+QUERY 18
+• A list of all hospital names which were accredited prior to 2015 and do have Emergency Service facilities.
+
+QUERY 19
+• QUERY 16 - A list of patients registered with doctors who are based at hospital with <400 beds.
