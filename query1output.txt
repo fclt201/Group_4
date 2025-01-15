@@ -1,4 +1,0 @@
-Doctor_ID	Doctor_Name	DOB	Address
-1	Dr. Olivia Harris	1976-05-08	10 Whitechapel Road, London, E1 1AA
-41	Dr. Oliver Walker	1984-05-09	901 Station Street, London, DE6 3CC
-81	Dr. Daniel Cooper	1996-08-17	22 Oak Street, London, CD1 2BB
