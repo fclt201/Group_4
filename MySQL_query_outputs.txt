@@ -1,16 +1,27 @@
+#Query 1 mysql output- Print a list of all doctors based at a particular hospital (hospital id = 1)
+
 Doctor_ID	Doctor_Name	DOB	Address
 1	Dr. Olivia Harris	1976-05-08	10 Whitechapel Road, London, E1 1AA
 41	Dr. Oliver Walker	1984-05-09	901 Station Street, London, DE6 3CC
 81	Dr. Daniel Cooper	1996-08-17	22 Oak Street, London, CD1 2BB
+
+#Query 2 mysql output - Print a list of all prescriptions for a particular patient, ordered by the prescription date (patient id = 22)
+
 Prescription_ID	Patient_ID	Patient_Name	Medication_ID	Medication_Name	Doctor_ID	Doctor_Name	Prescription_Date
 175	22	Charles Evans	35	Tiotropium	22	Dr. Samuel White	2023-12-31
 77	22	Charles Evans	99	Amoxicillin	22	Dr. Samuel White	2024-06-23
+
+#Query 3 mysql output - Print a list of all prescriptions that a particular doctor has prescribed (doctor id = 2)
+
 Doctor_ID	Doctor_Name	Prescription_ID	Patient_ID	Patient_Name	Medication_ID	Medication_Name	Prescription_Date
 2	Dr. James Bennett	107	402	Dorothy Robinson	65	Gabapentin	2024-03-16
 2	Dr. James Bennett	143	202	Julie Andrews	64	Fluoxetine	2024-09-05
 2	Dr. James Bennett	231	102	Frederick Baker-Wilkinson	30	Clopidogrel	2023-12-08
 2	Dr. James Bennett	362	402	Dorothy Robinson	57	Chemotherapy	2023-11-09
 2	Dr. James Bennett	415	202	Julie Andrews	51	Cryotherapy	2024-04-24
+
+#Query 4 mysql output - Print a table showing all prescriptions ordered by the patient name alphabetically
+
 Patient_Name	Prescription_ID	Medication_ID	Medication_Name	Doctor_ID	Doctor_Name	Prescription_Date
 Aaron Thomas	135	22	Citalopram	21	Dr. Alice Bell	2024-11-09
 Aaron Thomas	379	33	Lamotrigine	21	Dr. Alice Bell	2024-07-08
@@ -512,6 +523,9 @@ William Tucker	492	4	Amoxicillin	10	Dr. Emma Thompson	2023-12-23
 Yvonne Patel	348	29	Zolpidem	69	Dr. Nathan Roberts	2024-04-20
 Yvonne Patel	469	11	Amlodipine	69	Dr. Nathan Roberts	2024-08-03
 Zoe Leach	31	86	Interferon	91	Dr. Harry Wilson	2024-09-15
+
+#Query 7 mysql output - Print a list of all patient names and addresses for patients registered to doctors based at one particular hospital (hospital id = 3)
+
 Patient_ID	Patient_Name	Address
 3	Miss Joanne Pearce	80 Lambeth Road, London, SE1 6HR
 103	Edward Hopkins	95 Waterloo Road, London, SE1 8XD
@@ -531,6 +545,9 @@ Patient_ID	Patient_Name	Address
 383	Maria Jones	95 Borough High Street, London, SE1 1NL
 483	Kelly Lawson	78 Waterloo Road, London, SE1 8UD
 583	Mr Adrian Jones	65 Westminster Bridge Road, London, SE1 7HS
+
+#Query 8 mysql output - Print a list of all doctors based at Teaching hospitals which were accredited between 2015-2024
+
 Doctor_ID	Doctor_Name	Hospital_ID	Hospital_Name	Year_of_Accreditation
 2	Dr. James Bennett	2	Manchester Royal Infirmary	2016
 42	Dr. Lily Collins	2	Manchester Royal Infirmary	2016
@@ -558,6 +575,9 @@ Doctor_ID	Doctor_Name	Hospital_ID	Hospital_Name	Year_of_Accreditation
 71	Dr. Thomas Harris	31	James Cook University Hospital	2019
 33	Dr. Henry King	33	Queen Elizabeth University Hosp	2017
 73	Dr. Max Wilson	33	Queen Elizabeth University Hosp	2017
+
+#Query 9 mysql output - List all patients who may have a particular disease based on which medication they have been prescribed (disease = Epilepsy)
+
 Patient_Name
 Rachel Smith
 Jill Patel
@@ -569,11 +589,17 @@ Sheila Marshall
 Aaron Thomas
 Andrew Phillips
 Michelle Webster
+
+#Query 10 mysql output - List all doctors based at who specialize in a particular disease (disease = Hypertension)
+
 Doctor_Name
 Dr. Ava Clarke
 Dr. Lucas Green
 Dr. Matthew Young
 Dr. Joshua Scott
+
+#Query 11 mysql output - List all lab results for all patients over the age of 60
+
 Patient_Name	Test_Type	Test_Result	Test_Date	DOB
 Guy Evans-Shaw	Ultrasound	Normal	2024-01-22	1948-10-18
 Abbie Wood	Electrocardiogram	Abnormal	2023-06-06	1950-07-13
@@ -587,14 +613,23 @@ Kirsty Skinner-Miller	Tuberculosis (TB) Test	Abnormal	2024-05-28	1959-03-09
 Ms Ann Adams	Glucose Tolerance Test	Abnormal	2023-02-09	1945-04-08
 Josephine Brown	Sputum Test	Normal	2023-06-09	1940-08-03
 Eileen Wilson	Electrolyte Panel	Abnormal	2024-05-03	1960-08-07
+
+#Query 12 mysql output - Print a list of all appointments for a given patient (patient id = 9)
+
 Appointment_ID	Doctor_ID	Appointment_Date	Doctor_Name
 28	9	2025-12-19	Dr. Jacob Moore
+
+#Query 13 mysql output - Print a list of all appointments for a given doctor (doctor id = 2)
+
 Appointment_ID	Doctor_ID	Doctor_Name
 128	2	Dr. James Bennett
 210	2	Dr. James Bennett
 378	2	Dr. James Bennett
 402	2	Dr. James Bennett
 490	2	Dr. James Bennett
+
+#Query 14 mysql output - Print all prescriptions made from a particular hospital ordered alphabetically by the name of the medication being prescribed (hospital = 5)
+
 Medication_Name	Doctor_Name	Patient_Name	Hospital_Name
 Acetaminophen	Dr. Jack Wilson	Jayne Clark-Banks	Addenbrooke's Hospital
 Alendronate	Dr. Emma Young	Mr Neil Wood	Addenbrooke's Hospital
@@ -615,6 +650,9 @@ Omeprazole	Dr. Jack Wilson	Ms Jill Hargreaves	Addenbrooke's Hospital
 Sertraline	Dr. Emma Young	Brenda Singh	Addenbrooke's Hospital
 Simvastatin	Dr. Emma Young	Guy Evans-Connor	Addenbrooke's Hospital
 Tissue Plasminogen Activator	Dr. Jack Wilson	Joanne Phillips	Addenbrooke's Hospital
+
+Query 15 mysql output - Print a list of all lab results from all hospitals that were accredited between 2013- 2020
+
 Lab_Result_ID	Test_Type	Test_Result	Hospital_Name	Year_of_Accreditation
 19	Blood Gas Test	Normal	Royal London Hospital	2015
 50	Urine Dip	Normal	Royal London Hospital	2015
@@ -666,17 +704,29 @@ Lab_Result_ID	Test_Type	Test_Result	Hospital_Name	Year_of_Accreditation
 47	Blood Sugar Test	Normal	Princess Royal Hospital	2014
 22	HIV Test	Normal	Royal Cornwall Hospital	2016
 30	Creatinine Test	Normal	Luton and Dunstable Hospital	2017
+
+#Query 16 mysql output - Identify which doctor has made the most prescriptions
+
 Doctor_ID	Doctor_Name	Total_Prescriptions
 53	Dr. Abigail James	13
+
+#Query 17 mysql output - Print a list of all doctors at the hospital with biggest size (number of beds)
+
 Doctor_ID	Doctor_Name	Hospital_ID	Hospital_Name	Size
 33	Dr. Henry King	33	Queen Elizabeth University Hosp	1700
 73	Dr. Max Wilson	33	Queen Elizabeth University Hosp	1700
+
+#Query 18 mysql output - A list of all hospital names which were accredited prior to 2015 and do have Emergency Service facilities
+
 Hospital_Name
 Birmingham City Hospital
 John Radcliffe Hospital
 Queen's Medical Centre
 Freeman Hospital
 Stoke Mandeville Hospital
+
+#Query 19 mysql output - A list of patients registered with doctors who are based at hospital with <400 beds
+
 Patient_ID	Patient_Name	Doctor_Name	Hospital_Name	Size
 6	Maria Bolton	Dr. Ava Clarke	Great Ormond Street Hospital	389
 106	Mr Brandon Harvey	Dr. Ava Clarke	Great Ormond Street Hospital	389
