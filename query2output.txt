@@ -1,3 +1,0 @@
-Prescription_ID	Patient_ID	Patient_Name	Medication_ID	Medication_Name	Doctor_ID	Doctor_Name	Prescription_Date
-175	22	Charles Evans	35	Tiotropium	22	Dr. Samuel White	2023-12-31
-77	22	Charles Evans	99	Amoxicillin	22	Dr. Samuel White	2024-06-23
